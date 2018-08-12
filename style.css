@@ -31,22 +31,41 @@
 }
 
 h1 {
-color: maroon;
+    color: maroon;
 } */
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 7, Class Name */
+/* p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+.title {
+    color: teal;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 8, Multiple Classes */
 p {
     font-family: Arial;
 }
 
 h1 {
-color: maroon;
+    color: maroon;
 }
 
 .title {
-color: teal;
+    color: teal;
 }
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 
 
 
