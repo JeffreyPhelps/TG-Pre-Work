@@ -68,6 +68,29 @@ h1 {
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 9, ID Name */
+/* p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#article-title {
+    font-family: cursive;
+    text-transform: capitalize;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 10, Classes and IDs */
 p {
     font-family: Arial;
 }
@@ -89,6 +112,9 @@ text-transform: uppercase;
 text-transform: capitalize;
 }
 
+.publish-time {
+color: gray;
+}
 
 
 
