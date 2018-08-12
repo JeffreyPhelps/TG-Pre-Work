@@ -267,39 +267,39 @@ h5 {
 }
 
 h1 {
-color: maroon;
+    color: maroon;
 }
 
 h2.destination {
-font-family: cursive;
+    font-family: cursive;
 }
 
 .title {
-color: teal;
+    color: teal;
 }
 
 .uppercase {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .publish-time {
-color: gray;
+    color: gray;
 }
 
 .cursive {
-font-family: cursive;
+    font-family: cursive;
 }
 
 .capitalize {
-text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .description h5 {
-color: teal;
+    color: teal;
 }
 
 h5 {
-color: rebeccapurple !important;
+    color: rebeccapurple !important;
 } */
 
 
@@ -309,47 +309,55 @@ color: rebeccapurple !important;
 }
 
 h1 {
-color: maroon;
+    color: maroon;
 }
 
 h2.destination {
-font-family: cursive;
+    font-family: cursive;
 }
 
 .title {
-color: teal;
+    color: teal;
 }
 
 .uppercase {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .publish-time {
-color: gray;
+    color: gray;
 }
 
 .cursive {
-font-family: cursive;
+    font-family: cursive;
 }
 
 .capitalize {
-text-transform: capitalize;
+    text-transform: capitalize;
 }
 
 .description h5 {
-color: teal;
+    color: teal;
 }
 
 h5 {
-color: rebeccapurple !important;
+    color: rebeccapurple !important;
 }
 
 h5, p {
-font-family: Georgia;
+    font-family: Georgia;
 } */
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 17, Review */
+/* N/A */
+
+
+
+/* Learn CSS Part 2 */
+
+
+/* Codecademy - Learn CSS, CSS Visual Rules, Exercise 1, Intro to Visual Rules */
 /* N/A */
 
 
