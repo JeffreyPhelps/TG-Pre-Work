@@ -220,7 +220,7 @@ h2.destination {
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 14, Chaining and Specificity */
-p {
+/* p {
     font-family: Arial;
 }
 
@@ -258,6 +258,48 @@ h2.destination {
 
 h5 {
     color: rebeccapurple;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 15, Important */
+p {
+    font-family: Arial;
+}
+
+h1 {
+color: maroon;
+}
+
+h2.destination {
+font-family: cursive;
+}
+
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.publish-time {
+color: gray;
+}
+
+.cursive {
+font-family: cursive;
+}
+
+.capitalize {
+text-transform: capitalize;
+}
+
+.description h5 {
+color: teal;
+}
+
+h5 {
+color: rebeccapurple !important;
 }
 
 
