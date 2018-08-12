@@ -96,15 +96,15 @@ h1 {
 }
 
 h1 {
-color: maroon;
+    color: maroon;
 }
 
 .title {
-color: teal;
+    color: teal;
 }
 
 .uppercase {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 #article-title {
@@ -113,11 +113,41 @@ text-transform: capitalize;
 }
 
 .publish-time {
-color: gray;
+    color: gray;
 } */
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 11, Specificity */
+/* p {
+    font-family: Arial;
+}
+
+h1 {
+    color: maroon;
+}
+
+.title {
+    color: teal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.publish-time {
+    color: gray;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.capitalize {
+    text-transform: capitalize;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 12, Chaining Selectors */
 p {
     font-family: Arial;
 }
@@ -145,6 +175,11 @@ font-family: cursive;
 .capitalize {
 text-transform: capitalize;
 }
+
+h2.destination {
+font-family: cursive;
+}
+
 
 
 
