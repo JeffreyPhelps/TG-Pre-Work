@@ -50,7 +50,7 @@ h1 {
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 8, Multiple Classes */
-p {
+/* p {
     font-family: Arial;
 }
 
@@ -64,7 +64,31 @@ h1 {
 
 .uppercase {
     text-transform: uppercase;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 9, ID Name */
+p {
+    font-family: Arial;
 }
+
+h1 {
+color: maroon;
+}
+
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+#article-title {
+   font-family: cursive;
+text-transform: capitalize;
+}
+
 
 
 
