@@ -262,6 +262,48 @@ h5 {
 
 
 /* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 15, Important */
+/* p {
+    font-family: Arial;
+}
+
+h1 {
+color: maroon;
+}
+
+h2.destination {
+font-family: cursive;
+}
+
+.title {
+color: teal;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.publish-time {
+color: gray;
+}
+
+.cursive {
+font-family: cursive;
+}
+
+.capitalize {
+text-transform: capitalize;
+}
+
+.description h5 {
+color: teal;
+}
+
+h5 {
+color: rebeccapurple !important;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Setup and Selectors, Exercise 16, Multiple Selectors */
 p {
     font-family: Arial;
 }
@@ -300,6 +342,10 @@ color: teal;
 
 h5 {
 color: rebeccapurple !important;
+}
+
+h5, p {
+font-family: Georgia;
 }
 
 
