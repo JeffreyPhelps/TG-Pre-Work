@@ -492,6 +492,54 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Visual Rules, Exercise 7, Color */
+/* h1 {
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+    font-family: Georgia;
+}
+
+p {
+    color: AliceBlue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: white;
+    color: black;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Visual Rules, Exercise 8, Opacity */
 h1 {
     color: #FFF;
     font-size: 2em;
@@ -536,6 +584,7 @@ p {
     width: 60%;
     background-color: white;
     color: black;
+    opacity: .75;
 }
 
 
