@@ -682,7 +682,7 @@ p {
 
 
 /* Codecademy - Learn CSS, The Box Model, Exercise 4, Borders */
-#banner .content h1 {
+/* #banner .content h1 {
     position: relative;
     top: 50px;
     width: 400px;
@@ -696,6 +696,17 @@ h2 {
     line-height: 48px;
     text-align: center;
     border: 1px red dotted;
+} */
+
+
+/* Codecademy - Learn CSS, The Box Model, Exercise 5, Border Radius */
+#banner .content h1 {
+    border: solid 3px white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
 
