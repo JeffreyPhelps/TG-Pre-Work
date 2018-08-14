@@ -1028,9 +1028,32 @@ p {
 
 
 /* Codecademy - Learn CSS, Color, Exercise 4, RGB Colors */
-.green {
+/* .green {
     background-color: rgb(143, 188, 143);
+} */
+
+
+/* Codecademy - Learn CSS, Color, Exercise 5, Hex and RGB */
+.green {
+    background-color: #9EB599;
 }
+  
+  .light {
+    background-color: #683C2C;
+}
+  
+  .city {
+    background-color: #4C352D;
+}
+  
+  .vienna {
+    background-color: #352926;
+}
+  
+  .italian {
+    background-color: #141212;
+}
+
 
 
 
