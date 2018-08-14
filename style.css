@@ -1056,17 +1056,29 @@ p {
 
 
 /* Codecademy - Learn CSS, Color, Exercise 6, Hue, Saturation, and Lightness */
-.midground {
+/* .midground {
     background-color: hsl(225, 100%, 25%);
 }
   
 .foreground {
     background-color: hsl(325, 50%, 50%);
+} */
+
+
+/* Codecademy - Learn CSS, Color, Exercise 7, Opacity and Alpha */
+body {
+    margin: 0;
+    height: 100%;
+    background-color: rgba(0, 255, 0, 0.5)
 }
 
+.midground {
+    background-color: hsla(225, 100%, 25%, .4);
+}
 
-
-
+.foreground {
+    background-color: hsla(325, 50%, 50%, .6);
+}
 
 
 
