@@ -978,13 +978,21 @@ p {
 
 
 /* Codecademy - Learn CSS, Display and Positioning, Exercise 10, Floats */
-.answer {
+/* .answer {
     border: 1px solid #466995;
     margin: 20px;
     display: inline-block;
     float: left;
-}
+} */
 
+
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 11, Clear */
+.question {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    clear: left;
+}
 
 
 
