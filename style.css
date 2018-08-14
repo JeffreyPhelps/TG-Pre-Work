@@ -941,6 +941,13 @@ p {
 /* See index.html */
 
 
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 8, Block Display */
+footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    height: 100px;
+}
+
 
 
 
