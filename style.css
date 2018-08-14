@@ -777,7 +777,7 @@ p {
 
 
 /* Codecademy - Learn CSS, The Box Model, Exercise 9, Margins II */
-h2 {
+/* h2 {
     border: 1px dotted red;
     color: red;
     font-size: 14px;
@@ -785,6 +785,15 @@ h2 {
     padding: 20px 30px;
     text-align: center;
     margin: 30px 20px;
+} */
+
+
+/* Codecademy - Learn CSS, The Box Model, Exercise 10, Auto */
+.pull-quote {
+    width: 350px;
+    margin: 0 auto;
 }
+
+
 
 
