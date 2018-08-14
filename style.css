@@ -1143,15 +1143,23 @@ p {
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 7, Letter Spacing */
-h2 {
+/* h2 {
     font-family: Georgia;
     font-size: 24px;
     font-weight: 700;
     line-height: 2.5;
     word-spacing: 0.05em;
     letter-spacing: 0.02em;
-}
+} */
 
+
+/* Codecademy - Learn CSS, Typography, Exercise 8, Text Transformation */
+h1 {
+    font-family: Georgia;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+}
 
 
 
