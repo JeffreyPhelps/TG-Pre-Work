@@ -928,13 +928,18 @@ p {
 
 
 /* Codecademy - Learn CSS, Display and Positioning, Exercise 6, Z-Index */
-header {
+/* header {
     background-color: #466995;
     border-bottom: 1px solid #466995;
     position: fixed;
     width: 100%;
     z-index: 10;
-}
+} */
+
+
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 7, Inline Display */
+/* See index.html */
+
 
 
 
