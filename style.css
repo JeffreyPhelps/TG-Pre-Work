@@ -1007,5 +1007,22 @@ p {
 /* N/A */
 
 
+/* Codecademy - Learn CSS, Color, Exercise 2, Foreground vs Background */
+h1 {
+    color: MidnightBlue;
+    background-color: Aqua;
+    font-family: 'Covered By Your Grace', sans-serif;
+    font-size: 100px;
+    line-height: 76px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+
+
+
+
+
 
 
