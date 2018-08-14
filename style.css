@@ -1154,11 +1154,21 @@ p {
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 8, Text Transformation */
+/* h1 {
+    font-family: Georgia;
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+} */
+
+
+/* Codecademy - Learn CSS, Typography, Exercise 9, Text Alignment */
 h1 {
     font-family: Georgia;
     color: white;
     font-size: 28px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 
