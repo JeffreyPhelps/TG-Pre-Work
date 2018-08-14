@@ -1008,7 +1008,7 @@ p {
 
 
 /* Codecademy - Learn CSS, Color, Exercise 2, Foreground vs Background */
-h1 {
+/* h1 {
     color: MidnightBlue;
     background-color: Aqua;
     font-family: 'Covered By Your Grace', sans-serif;
@@ -1018,8 +1018,13 @@ h1 {
     position: relative;
     text-align: center;
     top: 20%;
-}
+} */
 
+
+/* Codecademy - Learn CSS, Color, Exercise 3, Hexadecimal */
+.green {
+    background-color: #8FBC8F;
+}
 
 
 
