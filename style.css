@@ -909,7 +909,7 @@ p {
 
 
 /* Codecademy - Learn CSS, Display and Positioning, Exercise 5, Position: Fixed */
-header {
+/* header {
     background-color: #466995;
     border-bottom: 1px solid #466995;
     position: fixed;
@@ -924,8 +924,17 @@ header {
     width: 100%;
     position: relative;
     top: 200px;
-}
+} */
 
+
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 6, Z-Index */
+header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 
 
 
