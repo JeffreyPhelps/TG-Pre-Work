@@ -1022,12 +1022,15 @@ p {
 
 
 /* Codecademy - Learn CSS, Color, Exercise 3, Hexadecimal */
-.green {
+/* .green {
     background-color: #8FBC8F;
+} */
+
+
+/* Codecademy - Learn CSS, Color, Exercise 4, RGB Colors */
+.green {
+    background-color: rgb(143, 188, 143);
 }
-
-
-
 
 
 
