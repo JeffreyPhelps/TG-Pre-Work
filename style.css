@@ -832,12 +832,19 @@ p {
 
 
 /* Codecademy - Learn CSS, The Box Model, Exercise 14, Resetting Defaults */
-body {
+/* body {
     background-color: #FFF;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+} */
+
+
+/* Codecademy - Learn CSS, The Box Model, Exercise 15, Visibility */
+.donate {
+    visibility: hidden;
 }
+
 
 
 
