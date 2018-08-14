@@ -1094,20 +1094,33 @@ p {
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 2, Font Family */
-h1 {
+/* h1 {
     font-family: Georgia;
     color: white;
     font-size: 28px;
-}
+} */
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 3, Font Weight */
-.banner p {
+/* .banner p {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding: 10px;
     color: #ffffff;
     font-weight: bold;
+} */
+
+
+/* Codecademy - Learn CSS, Typography, Exercise 4, Font Weight II */
+.header {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
