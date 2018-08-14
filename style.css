@@ -884,5 +884,12 @@ p {
 /* N/A */
 
 
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 2, Position */
+.question {
+    text-align: center;
+    position: static;
+}
+
+
 
 
