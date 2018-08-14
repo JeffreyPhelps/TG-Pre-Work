@@ -1112,7 +1112,7 @@ p {
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 4, Font Weight II */
-.header {
+/* .header {
     font-family: "Arial", sans-serif;
     font-size: 14px;
     font-weight: 900;
@@ -1121,8 +1121,15 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 
+
+/* Codecademy - Learn CSS, Typography, Exercise 5, Font Style */
+.font-card .creator {
+    font-size: 20px;
+    line-height: 1.25;
+    font-style: italic;
+}
 
 
 
