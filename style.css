@@ -1125,11 +1125,22 @@ p {
 
 
 /* Codecademy - Learn CSS, Typography, Exercise 5, Font Style */
-.font-card .creator {
+/* .font-card .creator {
     font-size: 20px;
     line-height: 1.25;
     font-style: italic;
+} */
+
+
+/* Codecademy - Learn CSS, Typography, Exercise 6, Word Spacing */
+h2 {
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.5;
+    word-spacing: 0.05em;
 }
+
 
 
 
