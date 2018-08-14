@@ -885,10 +885,19 @@ p {
 
 
 /* Codecademy - Learn CSS, Display and Positioning, Exercise 2, Position */
-.question {
+/* .question {
     text-align: center;
     position: static;
+} */
+
+
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 3, Position: Relative */
+.question {
+    text-align: center;
+    position: relative;
+    top: 40px;
 }
+
 
 
 
