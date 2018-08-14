@@ -807,7 +807,7 @@ p {
 
 
 /* Codecademy - Learn CSS, The Box Model, Exercise 12, Minimum and Maximum Height and Width */
-p {
+/* p {
     color: grey;
     font-size: 16px;
     line-height: 48px;
@@ -817,6 +817,17 @@ p {
     max-width: 800px;
     min-height: 200px;
     max-height: 300px;
+} */
+
+
+/* Codecademy - Learn CSS, The Box Model, Exercise 13, Overflow */
+#main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
 }
 
 
