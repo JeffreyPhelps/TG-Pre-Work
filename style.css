@@ -892,13 +892,18 @@ p {
 
 
 /* Codecademy - Learn CSS, Display and Positioning, Exercise 3, Position: Relative */
-.question {
+/* .question {
     text-align: center;
     position: relative;
     top: 40px;
+} */
+
+
+/* Codecademy - Learn CSS, Display and Positioning, Exercise 3, Position: Absolute */
+header {
+    background-color: #466995;
+    border-bottom: 1px solid #466995;
+    position: absolute;
+    width: 100%;
 }
-
-
-
-
 
