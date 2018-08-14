@@ -1034,25 +1034,38 @@ p {
 
 
 /* Codecademy - Learn CSS, Color, Exercise 5, Hex and RGB */
-.green {
+/* .green {
     background-color: #9EB599;
 }
   
-  .light {
+.light {
     background-color: #683C2C;
 }
   
-  .city {
+.city {
     background-color: #4C352D;
 }
   
-  .vienna {
+.vienna {
     background-color: #352926;
 }
   
-  .italian {
+.italian {
     background-color: #141212;
+} */
+
+
+/* Codecademy - Learn CSS, Color, Exercise 6, Hue, Saturation, and Lightness */
+.midground {
+    background-color: hsl(225, 100%, 25%);
 }
+  
+.foreground {
+    background-color: hsl(325, 50%, 50%);
+}
+
+
+
 
 
 
