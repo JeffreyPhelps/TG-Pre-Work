@@ -789,11 +789,20 @@ p {
 
 
 /* Codecademy - Learn CSS, The Box Model, Exercise 10, Auto */
-.pull-quote {
+/* .pull-quote {
     width: 350px;
     margin: 0 auto;
 }
 
+#main {
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+} */
 
+
+/* Codecademy - Learn CSS, The Box Model, Exercise 11, Margin Collapse */
+/* N/A */
 
 
