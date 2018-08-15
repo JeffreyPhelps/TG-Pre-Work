@@ -1191,6 +1191,21 @@ p {
 /* N/A */
 
 
+/* Codecademy - Learn CSS, Typography, Exercise 13, Fallback Fonts */
+.font-card .garamond .sample .text {
+    background-color: #ffffff;
+    margin: 50px 0;
+    padding: 20px 50px;
+    font-family: "Garamond", serif;
+}
+
+.font-card .creator .helvetica .sample .text {
+    font-size: 20px;
+    line-height: 1.25;
+    font-style: italic;
+    font-family: "Helvetica", sans-serif;
+}
+
 
 
 
