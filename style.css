@@ -1328,18 +1328,17 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 9, Grid Gap */
-.grid {
+/* .grid {
     display: grid;
     border: 2px blue solid;
     height: 500px;
     width:400px;
     grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
-    grid-row-gap: 20px;
-    grid-column-gap: 5px;
-}
+    grid-gap: 20px 5px;
+} */
 
 
-
-
+/* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 10, Grid Items */
+/* N/A */
 
 
