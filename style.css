@@ -1350,8 +1350,15 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 12, Grid Row */
-.a {
+/* .a {
     grid-row: 5 / 7;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 13, Grid Column */
+.b {
+    grid-column: 2 / span 6;
+    grid-row: 2 / span 3;
 }
 
 
