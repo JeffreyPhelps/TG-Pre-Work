@@ -1356,9 +1356,23 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 13, Grid Column */
-.b {
+/* .b {
     grid-column: 2 / span 6;
     grid-row: 2 / span 3;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 14, Grid Area */
+.a {
+    grid-area: 5 / 1 / span 2 / span 2;
+}
+
+.b {
+    grid-area: 2 / 2 / span 3 / span 6;
+}
+
+.c {
+    grid-area: 6 / 8 / span 3 / span 1;
 }
 
 
