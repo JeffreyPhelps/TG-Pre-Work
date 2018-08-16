@@ -1259,12 +1259,22 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 2, Creating a Grid */
+/* .grid {
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    display: grid;
+  } */
+
+
+/* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 3, Creating Columns */
 .grid {
     border: 2px blue solid;
     width: 400px;
     height: 500px;
     display: grid;
-  }
+    grid-template-columns: 100px 50% 200px;
+}
 
 
 
