@@ -1343,9 +1343,15 @@ p {
 
 
 /* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 11, Multiple Row Items */
-.a {
+/* .a {
     grid-row-start: 5;
     grid-row-end: 7;
+} */
+
+
+/* Codecademy - Learn CSS, CSS Grid Essentials, Exercise 12, Grid Row */
+.a {
+    grid-row: 5 / 7;
 }
 
 
