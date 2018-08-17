@@ -25,8 +25,12 @@
 
 
 // Codecademy - Learn Javascript, Introduction to JavaScript, Exercise 5, Properties
-console.log('Teaching the world how to code'.length);
+// console.log('Teaching the world how to code'.length);
 
+
+// Codecademy - Learn Javascript, Introduction to JavaScript, Exercise 6, Built-in Methods
+console.log('Codecademy'.toUpperCase());
+console.log('    Remove whitespace   '.trim());
 
 
 
