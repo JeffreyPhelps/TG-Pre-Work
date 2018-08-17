@@ -11,12 +11,13 @@
 
 
 // Codecademy - Learn Javascript, Introduction to JavaScript, Exercise 3, Data Types
-console.log('JavaScript');
-console.log(33.7);
-console.log(true);
-console.log(null);
+// console.log('JavaScript');
+// console.log(33.7);
+// console.log(true);
+// console.log(null);
 
 
+// Codecademy - Learn Javascript, Introduction to JavaScript, Exercise 4, Math Operators
 
 
 
