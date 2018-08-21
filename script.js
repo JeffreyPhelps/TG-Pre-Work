@@ -51,3 +51,7 @@ console.log('If it didn\'t become jaundice and went away they could discharge hi
 console.log('But this just being short of jaundice all the time confused them.'); */
 
 
+// Codecademy - Learn Javascript, Introduction to JavaScript, Exercise 9, Review Types and Operators
+// N/A
+
+
