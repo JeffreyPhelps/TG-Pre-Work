@@ -60,8 +60,14 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 1, Variables
-// N/A
+// const location = 'New York City';
+// let latitude = 40.7;
+// let inNorthernHemisphere = true;
 
+
+// Codecademy - Learn Javascript, Variables, Exercise 2, Create a Variable: const
+const entree = 'Enchiladas';
+const price = 12;
 
 
 
