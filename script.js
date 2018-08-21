@@ -99,7 +99,15 @@ console.log('But this just being short of jaundice all the time confused them.')
 // console.log(`My name is ${myName}. My favorite city is ${myCity}`);
 
 
-// Codecademy - Learn Javascript, Variables, Exercise 8, Variables Review
+// Codecademy - Learn Javascript, Variables, Exercise 8, Review Variables
+// N/A
+
+
+
+// Learn JavaScript - Part 3
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 1, Intro to Control Flow
 // N/A
 
 
