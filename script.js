@@ -71,8 +71,15 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 3, Create a Variable: let
-let changeMe = true;
-changeMe = false;
+// let changeMe = true;
+// changeMe = false;
+
+
+// Codecademy - Learn Javascript, Variables, Exercise 4, Undefined
+var notDefined
+console.log(notDefined);
+var valueless
+console.log(valueless);
 
 
 
