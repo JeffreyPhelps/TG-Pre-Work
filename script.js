@@ -89,8 +89,14 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 6, String Interpolation
-let favoriteAnimal = 'dog';
-console.log('May favorite animal: ' + favoriteAnimal);
+// let favoriteAnimal = 'dog';
+// console.log('May favorite animal: ' + favoriteAnimal);
+
+
+// Codecademy - Learn Javascript, Variables, Exercise 7, String Interpolation II
+let myName = 'Jeff';
+let myCity = 'Aurora';
+console.log(`My name is ${myName}. My favorite city is ${myCity}`);
 
 
 
