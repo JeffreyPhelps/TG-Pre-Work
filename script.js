@@ -66,8 +66,13 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 2, Create a Variable: const
-const entree = 'Enchiladas';
-const price = 12;
+// const entree = 'Enchiladas';
+// const price = 12;
+
+
+// Codecademy - Learn Javascript, Variables, Exercise 3, Create a Variable: let
+let changeMe = true;
+changeMe = false;
 
 
 
