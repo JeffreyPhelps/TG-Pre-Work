@@ -83,9 +83,14 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 5, Mathematical Assignment Operators
-molecule += 16;
-particle *= 6.02;
-assay++;
+// molecule += 16;
+// particle *= 6.02;
+// assay++;
+
+
+// Codecademy - Learn Javascript, Variables, Exercise 6, String Interpolation
+let favoriteAnimal = 'dog';
+console.log('May favorite animal: ' + favoriteAnimal);
 
 
 
