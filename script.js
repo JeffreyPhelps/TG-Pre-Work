@@ -76,10 +76,16 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Variables, Exercise 4, Undefined
-var notDefined
-console.log(notDefined);
-var valueless
-console.log(valueless);
+// var notDefined
+// console.log(notDefined);
+// var valueless
+// console.log(valueless);
+
+
+// Codecademy - Learn Javascript, Variables, Exercise 5, Mathematical Assignment Operators
+molecule += 16;
+particle *= 6.02;
+assay++;
 
 
 
