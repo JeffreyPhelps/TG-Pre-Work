@@ -140,13 +140,24 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 4, True and False Values II
-let favoritePhrase = "Let's Gooooo!";
+// let favoritePhrase = "Let's Gooooo!";
 
-if (!favoritePhrase) {
-  console.log("This string doesn't seem to be empty.");
-} else {
-  console.log('This string is definitely empty.');
+// if (!favoritePhrase) {
+//   console.log("This string doesn't seem to be empty.");
+// } else {
+//   console.log('This string is definitely empty.');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 5, Comparison Operators
+let hungerLevel =  5;
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
 }
+else {
+  console.log('We can eat later!');
+}
+
 
 
 
