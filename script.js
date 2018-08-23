@@ -121,18 +121,28 @@ console.log('But this just being short of jaundice all the time confused them.')
 // }
 
 
-// Codecademy - Learn Javascript, Control Flow, Exercise 3, True and Flase Values
-let wordCount = 1;
+// Codecademy - Learn Javascript, Control Flow, Exercise 3, True and False Values
+// let wordCount = 1;
 
-if (wordCount) {
-  console.log("Great! You've started your work!");
-} else {
-  console.log('Better get to work!');
-}
+// if (wordCount) {
+//   console.log("Great! You've started your work!");
+// } else {
+//   console.log('Better get to work!');
+// }
 
+// let favoritePhrase = "Let's Gooooo!";
+
+// if (favoritePhrase) {
+//   console.log("This string doesn't seem to be empty.");
+// } else {
+//   console.log('This string is definitely empty.');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 4, True and False Values II
 let favoritePhrase = "Let's Gooooo!";
 
-if (favoritePhrase) {
+if (!favoritePhrase) {
   console.log("This string doesn't seem to be empty.");
 } else {
   console.log('This string is definitely empty.');
