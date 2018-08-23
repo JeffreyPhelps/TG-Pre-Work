@@ -111,5 +111,15 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Control Flow, Exercise 2, if/else Statements
+let isSoccerFan = true;
+if (isSoccerFan === true) {
+  console.log('Goal!');
+}
+else {
+  console.log('No goal!');
+}
+
+
 
 
