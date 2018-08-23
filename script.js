@@ -262,11 +262,23 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 3, Parameters
-const takeOrder = (topping) => {
-    console.log('Order: pizza topped with mushrooms' + topping);
-  };
+// const takeOrder = (topping) => {
+//     console.log('Order: pizza topped with mushrooms' + topping);
+//   };
   
-  takeOrder('mushrooms');
+//   takeOrder('mushrooms');
+
+
+// Codecademy - Learn Javascript, Functions, Exercise 4, Parameters II
+const takeOrder = (topping, crustType) => {
+    console.log('Order: ' + crustType + ' crust pizza topped with ' + topping);
+};
+
+takeOrder('mushrooms', 'thin');
+
+takeOrder('pepperoni', 'pan');
+
+takeOrder('extra cheese', 'gluten free');
 
 
 
