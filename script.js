@@ -231,14 +231,18 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 10, Ternery Operator
-let isCorrect = true;
+// let isCorrect = true;
 
-isCorrect == true ? console.log('Correct!') :
-console.log('Incorrect!');
+// isCorrect == true ? console.log('Correct!') :
+// console.log('Incorrect!');
 
-let favoritePhrase = 'Love That!';
+// let favoritePhrase = 'Love That!';
 
-favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+// favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 11, Review: Control Flow
+// N/A
 
 
 
