@@ -189,23 +189,46 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 8, Logical Operators
+// let moonPhase = 'full';
+// let isFoggyNight = true;
+// if (moonPhase === 'full' && isFoggyNight) {
+//   console.log('Howl!');
+// }
+// else if (moonPhase === 'new') {
+//   console.log('I swear I am not a werewolf.');
+// }
+// else if (moonPhase === 'mostly new') {
+//   console.log('Back on two feet.');
+// }
+// else if (moonPhase === 'mostly full') {
+//   console.log('Arms and legs are getting hairier.');
+// }
+// else {
+//   console.log('Invalid Moon Phase');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 9, Switch Statements
 let moonPhase = 'full';
-let isFoggyNight = true;
-if (moonPhase === 'full' && isFoggyNight) {
-  console.log('Howl!');
+
+switch (moonPhase) {
+  case 'new':
+    console.log('I swear I am not a werewolf.');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet.');
+    break;
+  case 'mostly full':
+    console.log('Arms and legs are getting hairier.');
+    break;
+  case 'full':
+    console.log('Howl!');
+    break;
+  default:
+    console.log('Invalid moon phase');
+    break;
 }
-else if (moonPhase === 'new') {
-  console.log('I swear I am not a werewolf.');
-}
-else if (moonPhase === 'mostly new') {
-  console.log('Back on two feet.');
-}
-else if (moonPhase === 'mostly full') {
-  console.log('Arms and legs are getting hairier.');
-}
-else {
-  console.log('Invalid Moon Phase');
-}
+
 
 
 
