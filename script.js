@@ -209,26 +209,36 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 9, Switch Statements
-let moonPhase = 'full';
+// let moonPhase = 'full';
 
-switch (moonPhase) {
-  case 'new':
-    console.log('I swear I am not a werewolf.');
-    break;
-  case 'mostly new':
-    console.log('Back on two feet.');
-    break;
-  case 'mostly full':
-    console.log('Arms and legs are getting hairier.');
-    break;
-  case 'full':
-    console.log('Howl!');
-    break;
-  default:
-    console.log('Invalid moon phase');
-    break;
-}
+// switch (moonPhase) {
+//   case 'new':
+//     console.log('I swear I am not a werewolf.');
+//     break;
+//   case 'mostly new':
+//     console.log('Back on two feet.');
+//     break;
+//   case 'mostly full':
+//     console.log('Arms and legs are getting hairier.');
+//     break;
+//   case 'full':
+//     console.log('Howl!');
+//     break;
+//   default:
+//     console.log('Invalid moon phase');
+//     break;
+// }
 
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 10, Ternery Operator
+let isCorrect = true;
+
+isCorrect == true ? console.log('Correct!') :
+console.log('Incorrect!');
+
+let favoritePhrase = 'Love That!';
+
+favoritePhrase === 'Love That!' ? console.log('I love that!') : console.log("I don't love that!");
 
 
 
