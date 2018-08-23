@@ -254,11 +254,20 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 2, Functions
-const takeOrder = () => {
-    console.log('Order: pizza');
-};
+// const takeOrder = () => {
+//     console.log('Order: pizza');
+// };
   
-takeOrder();
+// takeOrder();
+
+
+// Codecademy - Learn Javascript, Functions, Exercise 3, Parameters
+const takeOrder = (topping) => {
+    console.log('Order: pizza topped with mushrooms' + topping);
+  };
+  
+  takeOrder('mushrooms');
+
 
 
 
