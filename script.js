@@ -121,7 +121,7 @@ console.log('But this just being short of jaundice all the time confused them.')
 // }
 
 
-// Codecademy - Learn Javascript, Control Flow, Exercise 3, True and False Values
+// Codecademy - Learn Javascript, Control Flow, Exercise 3, true and false Values
 // let wordCount = 1;
 
 // if (wordCount) {
@@ -139,7 +139,7 @@ console.log('But this just being short of jaundice all the time confused them.')
 // }
 
 
-// Codecademy - Learn Javascript, Control Flow, Exercise 4, True and False Values II
+// Codecademy - Learn Javascript, Control Flow, Exercise 4, true and false Values II
 // let favoritePhrase = "Let's Gooooo!";
 
 // if (!favoritePhrase) {
@@ -160,15 +160,32 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 6, Comparison Operators II
-let moonPhase = 'full';
+// let moonPhase = 'full';
+// if (moonPhase === 'full') {
+//   console.log('Howl!');
+// }
+// else {
+//   console.log('I swear I am not a werewolf.');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 7, else if Statements
+let moonPhase = 'solar eclipse';
 if (moonPhase === 'full') {
   console.log('Howl!');
 }
-else {
-  concols.log('I swear I am not a werewolf.');
+else if (moonPhase === 'new') {
+  console.log('I swear I am not a werewolf.');
 }
-
-
+else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet.');
+}
+else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier.');
+}
+else {
+  console.log('Invalid Moon Phase');
+}
 
 
 
