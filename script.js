@@ -150,12 +150,22 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 5, Comparison Operators
-let hungerLevel =  5;
-if (hungerLevel > 7) {
-  console.log('Time to eat!');
+// let hungerLevel =  5;
+// if (hungerLevel > 7) {
+//   console.log('Time to eat!');
+// }
+// else {
+//   console.log('We can eat later!');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 6, Comparison Operators II
+let moonPhase = 'full';
+if (moonPhase === 'full') {
+  console.log('Howl!');
 }
 else {
-  console.log('We can eat later!');
+  concols.log('I swear I am not a werewolf.');
 }
 
 
