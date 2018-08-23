@@ -170,8 +170,28 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 7, else if Statements
-let moonPhase = 'solar eclipse';
-if (moonPhase === 'full') {
+// let moonPhase = 'solar eclipse';
+// if (moonPhase === 'full') {
+//   console.log('Howl!');
+// }
+// else if (moonPhase === 'new') {
+//   console.log('I swear I am not a werewolf.');
+// }
+// else if (moonPhase === 'mostly new') {
+//   console.log('Back on two feet.');
+// }
+// else if (moonPhase === 'mostly full') {
+//   console.log('Arms and legs are getting hairier.');
+// }
+// else {
+//   console.log('Invalid Moon Phase');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 8, Logical Operators
+let moonPhase = 'full';
+let isFoggyNight = true;
+if (moonPhase === 'full' && isFoggyNight) {
   console.log('Howl!');
 }
 else if (moonPhase === 'new') {
@@ -186,6 +206,7 @@ else if (moonPhase === 'mostly full') {
 else {
   console.log('Invalid Moon Phase');
 }
+
 
 
 
