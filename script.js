@@ -112,12 +112,30 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Control Flow, Exercise 2, if/else Statements
-let isSoccerFan = true;
-if (isSoccerFan === true) {
-  console.log('Goal!');
+// let isSoccerFan = true;
+// if (isSoccerFan === true) {
+//   console.log('Goal!');
+// }
+// else {
+//   console.log('No goal!');
+// }
+
+
+// Codecademy - Learn Javascript, Control Flow, Exercise 3, True and Flase Values
+let wordCount = 1;
+
+if (wordCount) {
+  console.log("Great! You've started your work!");
+} else {
+  console.log('Better get to work!');
 }
-else {
-  console.log('No goal!');
+
+let favoritePhrase = "Let's Gooooo!";
+
+if (favoritePhrase) {
+  console.log("This string doesn't seem to be empty.");
+} else {
+  console.log('This string is definitely empty.');
 }
 
 
