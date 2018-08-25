@@ -329,16 +329,29 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 7, Function Declarations
-function isGreaterThan (numberOne, numberTwo) {
-    if (numberOne > numberTwo) {
-      return true;
+// function isGreaterThan (numberOne, numberTwo) {
+//     if (numberOne > numberTwo) {
+//     return true;
+//     }
+//     else {
+//     return false;
+//     }
+// }
+
+// isGreaterThan(7, 3);
+
+
+// Codecademy - Learn Javascript, Functions, Exercise 8, Function Expressions
+const isGreaterThan = (numberOne, numberTwo) => {
+    if(numberOne > numberTwo){
+    return true;
+    } else {
+    return false;
     }
-    else {
-      return false;
-    }
-  }
-  
-  isGreaterThan(7, 3);
+}
+
+isGreaterThan(4, 8)
+
 
 
 
