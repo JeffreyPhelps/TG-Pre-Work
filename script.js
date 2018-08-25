@@ -264,21 +264,39 @@ console.log('But this just being short of jaundice all the time confused them.')
 // Codecademy - Learn Javascript, Functions, Exercise 3, Parameters
 // const takeOrder = (topping) => {
 //     console.log('Order: pizza topped with mushrooms' + topping);
-//   };
-  
-//   takeOrder('mushrooms');
+// };
+
+// takeOrder('mushrooms');
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 4, Parameters II
+// const takeOrder = (topping, crustType) => {
+//     console.log('Order: ' + crustType + ' crust pizza topped with ' + topping);
+// };
+
+// takeOrder('mushrooms', 'thin');
+
+// takeOrder('pepperoni', 'pan');
+
+// takeOrder('extra cheese', 'gluten free');
+
+
+// Codecademy - Learn Javascript, Functions, Exercise 5, Return
+let orderCount = 0;
 const takeOrder = (topping, crustType) => {
-    console.log('Order: ' + crustType + ' crust pizza topped with ' + topping);
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+  orderCount++;
 };
 
-takeOrder('mushrooms', 'thin');
+const getSubTotal = (itemCount) => {
+	return itemCount * 7.5;
+}
 
-takeOrder('pepperoni', 'pan');
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
 
-takeOrder('extra cheese', 'gluten free');
+console.log(getSubTotal(orderCount));
 
 
 
