@@ -354,10 +354,13 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 9, Arrow Functions
-const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diameter;
+// const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diameter;
 
-console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
+// console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
 
+
+// Codecademy - Learn Javascript, Functions, Exercise 10, Review
+// N/A
 
 
 
