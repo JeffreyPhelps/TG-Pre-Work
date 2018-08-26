@@ -359,10 +359,16 @@ console.log('But this just being short of jaundice all the time confused them.')
 // console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
 
 
-// Codecademy - Learn Javascript, Functions, Exercise 10, Review
+// Codecademy - Learn Javascript, Functions, Exercise 10, Review Functions
 // N/A
 
 
+
+// Learn JavaScript - Part 5
+
+
+// Codecademy - Learn Javascript, Scope, Exercise 1, Intro to Scope
+// N/A
 
 
 
