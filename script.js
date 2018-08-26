@@ -401,24 +401,38 @@ console.log('But this just being short of jaundice all the time confused them.')
 // const visibleLightWaves = () => {
 //     let lightWaves = 'Moonlight';
 //     console.log(lightWaves);
-//   }
-  
-//   visibleLightWaves();
-//   console.log(lightWaves);
+// }
+
+// visibleLightWaves();
+// console.log(lightWaves);
 
 
 // Codecademy - Learn Javascript, Scope, Exercise 5, Block Scope II
-const visibleLightWaves = () => {
-    let lightWaves = 'Moonlight';
-    let region = 'The Arctic';
-    if (region === 'The Arctic') {
-    let lightWaves = 'Northern Lights';
-    console.log(lightWaves);  
-    }
-    console.log(lightWaves);
-};
+// const visibleLightWaves = () => {
+//     let lightWaves = 'Moonlight';
+//     let region = 'The Arctic';
+//     if (region === 'The Arctic') {
+//     let lightWaves = 'Northern Lights';
+//     console.log(lightWaves);  
+//     }
+//     console.log(lightWaves);
+// };
 
-visibleLightWaves();
+// visibleLightWaves();
+
+
+// Codecademy - Learn Javascript, Scope, Exercise 6, Block Scope III
+const starCount = () => {
+    let i = 5;
+    console.log(i);
+    for (i = 0; i < 12; i++) {
+    console.log(i);
+    }
+}
+
+starCount();
+console.log(i);
+
 
 
 
