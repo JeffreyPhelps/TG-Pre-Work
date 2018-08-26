@@ -342,15 +342,23 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Functions, Exercise 8, Function Expressions
-const isGreaterThan = (numberOne, numberTwo) => {
-    if(numberOne > numberTwo){
-    return true;
-    } else {
-    return false;
-    }
-}
+// const isGreaterThan = (numberOne, numberTwo) => {
+//     if(numberOne > numberTwo){
+//     return true;
+//     } else {
+//     return false;
+//     }
+// }
 
-isGreaterThan(4, 8)
+// isGreaterThan(4, 8)
+
+
+// Codecademy - Learn Javascript, Functions, Exercise 9, Arrow Functions
+const volumeOfSphere = diameter => (1/6) * Math.PI * diameter * diameter * diameter;
+
+console.log('The volume of a sphere is ' + volumeOfSphere(10) + ' cubic centimeters');
+
+
 
 
 
