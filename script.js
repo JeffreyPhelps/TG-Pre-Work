@@ -439,5 +439,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 
+// Learn JavaScript - Part 6
 
-  
+
+// Codecademy - Learn Javascript, Arrays, Exercise 1, Intro to Arrays
+// N/A
+
+
+
+
