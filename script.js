@@ -446,5 +446,11 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Arrays, Exercise 2, Create an Array
+let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
+console.log(newYearsResolutions);
+
+
+
 
 
