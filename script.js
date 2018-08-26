@@ -422,17 +422,20 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Scope, Exercise 6, Block Scope III
-const starCount = () => {
-    let i = 5;
-    console.log(i);
-    for (i = 0; i < 12; i++) {
-    console.log(i);
-    }
-}
+// const starCount = () => {
+//     let i = 5;
+//     console.log(i);
+//     for (i = 0; i < 12; i++) {
+//     console.log(i);
+//     }
+// }
 
-starCount();
-console.log(i);
+// starCount();
+// console.log(i);
 
+
+// Codecademy - Learn Javascript, Scope, Exercise 7, Review Scope
+// N/A
 
 
 
