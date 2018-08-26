@@ -398,14 +398,27 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Scope, Exercise 4, Block Scope
+// const visibleLightWaves = () => {
+//     let lightWaves = 'Moonlight';
+//     console.log(lightWaves);
+//   }
+  
+//   visibleLightWaves();
+//   console.log(lightWaves);
+
+
+// Codecademy - Learn Javascript, Scope, Exercise 5, Block Scope II
 const visibleLightWaves = () => {
     let lightWaves = 'Moonlight';
+    let region = 'The Arctic';
+    if (region === 'The Arctic') {
+    let lightWaves = 'Northern Lights';
+    console.log(lightWaves);  
+    }
     console.log(lightWaves);
-  }
-  
-  visibleLightWaves();
-  console.log(lightWaves);
+};
 
+visibleLightWaves();
 
 
 
