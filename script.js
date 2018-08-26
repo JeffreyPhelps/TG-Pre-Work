@@ -384,18 +384,30 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Scope, Exercise 3, Global Scope II
-const satellite = 'The Moon';
-const galaxy = 'The Milky Way';
-let stars = 'North Star';
+// const satellite = 'The Moon';
+// const galaxy = 'The Milky Way';
+// let stars = 'North Star';
 
-const myNightSky = () => {
-  stars = 'Sirius';
-  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
-}
+// const myNightSky = () => {
+//   stars = 'Sirius';
+//   return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+// }
 
-console.log(myNightSky());
-console.log(stars);
-
-
+// console.log(myNightSky());
+// console.log(stars);
 
 
+// Codecademy - Learn Javascript, Scope, Exercise 4, Block Scope
+const visibleLightWaves = () => {
+    let lightWaves = 'Moonlight';
+    console.log(lightWaves);
+  }
+  
+  visibleLightWaves();
+  console.log(lightWaves);
+
+
+
+
+
+  
