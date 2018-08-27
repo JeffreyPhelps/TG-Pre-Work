@@ -447,9 +447,17 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Arrays, Exercise 2, Create an Array
+// let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
+// console.log(newYearsResolutions);
+
+
+// Codecademy - Learn Javascript, Arrays, Exercise 3, Property Access
 let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
 console.log(newYearsResolutions);
-
+let listItem = newYearsResolutions[0];
+console.log(listItem);
+console.log(newYearsResolutions[2]);
+console.log(newYearsResolutions[3]);
 
 
 
