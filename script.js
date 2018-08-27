@@ -471,6 +471,17 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Arrays, Exercise 5, Length Property
+// let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
+// console.log(newYearsResolutions);
+// let listItem = newYearsResolutions[0];
+// console.log(listItem);
+// console.log(newYearsResolutions[2]);
+// console.log(newYearsResolutions[3]);
+// newYearsResolutions[1] = 'Learn a new language';
+// console.log(newYearsResolutions.length);
+
+
+// Codecademy - Learn Javascript, Arrays, Exercise 6, Push Method
 let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
 console.log(newYearsResolutions);
 let listItem = newYearsResolutions[0];
@@ -479,8 +490,8 @@ console.log(newYearsResolutions[2]);
 console.log(newYearsResolutions[3]);
 newYearsResolutions[1] = 'Learn a new language';
 console.log(newYearsResolutions.length);
-
-
-
-
+newYearsResolutions.push('learn guitar', 'become code ninja');
+console.log(newYearsResolutions);
+newYearsResolutions.pop();
+console.log(newYearsResolutions);
 
