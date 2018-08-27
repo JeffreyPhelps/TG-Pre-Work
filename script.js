@@ -482,16 +482,26 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Arrays, Exercise 6, Push Method
-let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
-console.log(newYearsResolutions);
-let listItem = newYearsResolutions[0];
-console.log(listItem);
-console.log(newYearsResolutions[2]);
-console.log(newYearsResolutions[3]);
-newYearsResolutions[1] = 'Learn a new language';
-console.log(newYearsResolutions.length);
-newYearsResolutions.push('learn guitar', 'become code ninja');
-console.log(newYearsResolutions);
-newYearsResolutions.pop();
-console.log(newYearsResolutions);
+// let newYearsResolutions = ['Code', 'Workout', 'Coding Job'];
+// console.log(newYearsResolutions);
+// let listItem = newYearsResolutions[0];
+// console.log(listItem);
+// console.log(newYearsResolutions[2]);
+// console.log(newYearsResolutions[3]);
+// newYearsResolutions[1] = 'Learn a new language';
+// console.log(newYearsResolutions.length);
+// newYearsResolutions.push('learn guitar', 'become code ninja');
+// console.log(newYearsResolutions);
+// newYearsResolutions.pop();
+// console.log(newYearsResolutions);
+
+
+// Codecademy - Learn Javascript, Arrays, Exercise 7, More Array Methods
+let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+groceryList.shift();
+groceryList.unshift('popcorn');
+console.log(groceryList);
+console.log(groceryList.slice(1, 4));
+console.log(groceryList);
+
 
