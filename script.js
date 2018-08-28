@@ -506,13 +506,17 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Arrays, Exercise 8, Arrays with let and const
-let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
-const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
-condiments.push('Mayo');
-condiments = ['Sriracha'];
-console.log(condiments);
-utensils.pop();
-utensils = ['Spork'];
+// let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+// const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+// condiments.push('Mayo');
+// condiments = ['Sriracha'];
+// console.log(condiments);
+// utensils.pop();
+// utensils = ['Spork'];
+
+
+// Codecademy - Learn Javascript, Arrays, Exercise 9, Review Arrays
+// N/A
 
 
 
