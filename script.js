@@ -565,15 +565,27 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Loops, Exercise 6, while Loops
-let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
-let currentCard = 'Spade';
+// let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+// let currentCard = 'Spade';
 
-while (currentCard != 'Spade') {
-  console.log(currentCard);
-  currentCard = cards[Math.floor(Math.random() * 4)];
+// while (currentCard != 'Spade') {
+//   console.log(currentCard);
+//   currentCard = cards[Math.floor(Math.random() * 4)];
+// }
+
+// console.log('Found a spade!');
+
+
+// Codecademy - Learn Javascript, Loops, Exercise 7, Infinite Loops
+let flag = true;
+let counter = 0;
+while(flag === true){
+  console.log(counter);
+  counter+=1;
+  if (counter === 37){
+    break;
+  }
 }
-
-console.log('Found a spade!');
 
 
 
