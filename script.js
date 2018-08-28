@@ -593,3 +593,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 
+// Learn JavaScript - Part 8
+
+
+// Codecademy - Learn Javascript, Iterators, Exercise 1, Intro to Iterators
+// N/A
+
+
+
+
