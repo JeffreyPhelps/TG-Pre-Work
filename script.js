@@ -520,3 +520,10 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 
+// Learn JavaScript - Part 7
+
+
+// Codecademy - Learn Javascript, Loops, Exercise 1, Intro to Loops
+// N/A
+
+
