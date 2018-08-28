@@ -497,11 +497,22 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Arrays, Exercise 7, More Array Methods
-let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
-groceryList.shift();
-groceryList.unshift('popcorn');
-console.log(groceryList);
-console.log(groceryList.slice(1, 4));
-console.log(groceryList);
+// let groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'pasta', 'coconut oil', 'plantains'];
+// groceryList.shift();
+// groceryList.unshift('popcorn');
+// console.log(groceryList);
+// console.log(groceryList.slice(1, 4));
+// console.log(groceryList);
+
+
+// Codecademy - Learn Javascript, Arrays, Exercise 8, Arrays with let and const
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+condiments.push('Mayo');
+condiments = ['Sriracha'];
+console.log(condiments);
+utensils.pop();
+utensils = ['Spork'];
+
 
 
