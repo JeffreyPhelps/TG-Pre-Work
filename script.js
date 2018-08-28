@@ -551,18 +551,29 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Loops, Exercise 5, Nested for Loops
-let myPlaces = ['Panama', 'Mexico', 'Virgin Islands'];
-let friendPlaces = ['Bermuda', 'Panama', 'Puerto Rico'];
+// let myPlaces = ['Panama', 'Mexico', 'Virgin Islands'];
+// let friendPlaces = ['Bermuda', 'Panama', 'Puerto Rico'];
 
-for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+// for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
   
-  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
-    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
-      console.log(myPlaces[myPlacesIndex]);
-    }
-  }
+//   for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+//     if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+//       console.log(myPlaces[myPlacesIndex]);
+//     }
+//   }
+// }
+
+
+// Codecademy - Learn Javascript, Loops, Exercise 6, while Loops
+let cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+let currentCard = 'Spade';
+
+while (currentCard != 'Spade') {
+  console.log(currentCard);
+  currentCard = cards[Math.floor(Math.random() * 4)];
 }
 
+console.log('Found a spade!');
 
 
 
