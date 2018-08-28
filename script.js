@@ -600,5 +600,17 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Iterators, Exercise 2, .forEach()
+let fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+
+// Iterate over fruits below
+fruits.forEach(function(fruitItem) {
+  console.log(' - ' + fruitItem);
+});
+
+// Now, using arrow-function syntax
+fruits.forEach(fruitItem => console.log(' - ' + fruitItem));
+
+
 
 
