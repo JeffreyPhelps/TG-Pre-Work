@@ -601,15 +601,25 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Iterators, Exercise 2, .forEach()
-let fruits = ['mango', 'papaya', 'pineapple', 'apple'];
+// let fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 
-// Iterate over fruits below
-fruits.forEach(function(fruitItem) {
-  console.log(' - ' + fruitItem);
-});
+// // Iterate over fruits below
+// fruits.forEach(function(fruitItem) {
+//   console.log(' - ' + fruitItem);
+// });
 
-// Now, using arrow-function syntax
-fruits.forEach(fruitItem => console.log(' - ' + fruitItem));
+// // Now, using arrow-function syntax
+// fruits.forEach(fruitItem => console.log(' - ' + fruitItem));
+
+
+// Codecademy - Learn Javascript, Iterators, Exercise 3, .map()
+let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+// Create the secretMessage array below
+let secretMessage = animals.map(animal => animal.charAt(0));
+console.log(secretMessage.join(''));
+let bigNumbers = [100, 200, 300, 400, 500];
+// Create the smallNumbers array below
+let smallNumbers = bigNumbers.map(num => num/100);
 
 
 
