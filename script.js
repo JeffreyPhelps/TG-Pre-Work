@@ -527,3 +527,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Loops, Exercise 2, Looping Manually
+let vacationSpots = ['Panama', 'Mexico', 'St. Thomas'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
+
+
+
