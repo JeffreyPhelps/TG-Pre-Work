@@ -543,11 +543,26 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Loops, Exercise 4, for Loops, Backwards
-let vacationSpots = ['Panama', 'Mexico', 'St. Thomas'];
+// let vacationSpots = ['Panama', 'Mexico', 'St. Thomas'];
 
-for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--) {
-  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+// for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--) {
+//   console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+// }
+
+
+// Codecademy - Learn Javascript, Loops, Exercise 5, Nested for Loops
+let myPlaces = ['Panama', 'Mexico', 'Virgin Islands'];
+let friendPlaces = ['Bermuda', 'Panama', 'Puerto Rico'];
+
+for (let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) {
+  
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++) {
+    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log(myPlaces[myPlacesIndex]);
+    }
+  }
 }
+
 
 
 
