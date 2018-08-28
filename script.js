@@ -577,16 +577,19 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Loops, Exercise 7, Infinite Loops
-let flag = true;
-let counter = 0;
-while(flag === true){
-  console.log(counter);
-  counter+=1;
-  if (counter === 37){
-    break;
-  }
-}
+// let flag = true;
+// let counter = 0;
+// while(flag === true){
+//   console.log(counter);
+//   counter+=1;
+//   if (counter === 37){
+//     break;
+//   }
+// }
 
+
+// Codecademy - Learn Javascript, Loops, Exercise 8, Review: Loops
+// N/A
 
 
 
