@@ -613,13 +613,31 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Iterators, Exercise 3, .map()
-let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
-// Create the secretMessage array below
-let secretMessage = animals.map(animal => animal.charAt(0));
-console.log(secretMessage.join(''));
-let bigNumbers = [100, 200, 300, 400, 500];
-// Create the smallNumbers array below
-let smallNumbers = bigNumbers.map(num => num/100);
+// let animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
+// // Create the secretMessage array below
+// let secretMessage = animals.map(animal => animal.charAt(0));
+// console.log(secretMessage.join(''));
+// let bigNumbers = [100, 200, 300, 400, 500];
+// // Create the smallNumbers array below
+// let smallNumbers = bigNumbers.map(num => num/100);
+
+
+// Codecademy - Learn Javascript, Iterators, Exercise 4, .filter()
+let randomNumbers = [375, 200, 3.14, 7, 13, 852];
+
+// Call .filter() on randomNumbers below
+let smallNumbers = randomNumbers.filter(function(number) {
+  return number < 250;
+});
+
+let favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+let longFavoriteWords = favoriteWords.filter(function(word) {
+  return word.length > 7;
+});
+
+// Refactor the code above using arrow function syntax
+let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
 
 
 
