@@ -623,21 +623,39 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Iterators, Exercise 4, .filter()
-let randomNumbers = [375, 200, 3.14, 7, 13, 852];
+// let randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
-// Call .filter() on randomNumbers below
-let smallNumbers = randomNumbers.filter(function(number) {
-  return number < 250;
+// // Call .filter() on randomNumbers below
+// let smallNumbers = randomNumbers.filter(function(number) {
+//   return number < 250;
+// });
+
+// let favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+
+// let longFavoriteWords = favoriteWords.filter(function(word) {
+//   return word.length > 7;
+// });
+
+// // Refactor the code above using arrow function syntax
+// let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
+
+
+// Codecademy - Learn Javascript, Iterators, Exercise 5, Iterator Documentation
+let words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+// Something is missing in the method call below
+console.log(words.some(function(word) {
+  return word.length < 6;
+}));
+
+// Use filter to create a new array
+let interestingWords = words.filter(function(word) {
+  return word.length > 5;
 });
 
-let favoriteWords = ['nostalgia', 'hyperbole', 'fervent', 'esoteric', 'serene'];
+// Make sure to uncomment the code below and fix the incorrect code before running it
+console.log(interestingWords.every(word => word.length > 5 ));
 
-let longFavoriteWords = favoriteWords.filter(function(word) {
-  return word.length > 7;
-});
-
-// Refactor the code above using arrow function syntax
-let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
 
 
 
