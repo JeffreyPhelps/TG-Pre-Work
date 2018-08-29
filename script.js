@@ -675,3 +675,13 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 
+// Learn JavaScript - Part 9
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 1, Intro to Objects
+// N/A
+
+
+
+
+
