@@ -1064,36 +1064,41 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Classes, Exercise 5, Method Calls
-class Surgeon {
-    constructor(name, department) {
-    this._name = name;
-    this._department = department;
-    this._remainingVacationDays = 20;
-    }
+// class Surgeon {
+//     constructor(name, department) {
+//     this._name = name;
+//     this._department = department;
+//     this._remainingVacationDays = 20;
+//     }
     
-    get name() {
-    return this._name;
-    }
+//     get name() {
+//     return this._name;
+//     }
     
-    get department() {
-    return this._department;
-    }
+//     get department() {
+//     return this._department;
+//     }
     
-    get remainingVacationDays() {
-    return this._remainingVacationDays;
-    }
+//     get remainingVacationDays() {
+//     return this._remainingVacationDays;
+//     }
     
-    takeVacationDays(daysOff) {
-    this._remainingVacationDays -= daysOff;
-    }
-}
+//     takeVacationDays(daysOff) {
+//     this._remainingVacationDays -= daysOff;
+//     }
+// }
 
-const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
-const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
+// const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
+// const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
 
-console.log(surgeonCurry.name);
-surgeonCurry.takeVacationDays(3);
-console.log(surgeonCurry.remainingVacationDays);
+// console.log(surgeonCurry.name);
+// surgeonCurry.takeVacationDays(3);
+// console.log(surgeonCurry.remainingVacationDays);
+
+
+// Codecademy - Learn Javascript, Classes, Exercise 6, Inheritance I
+// N/A
+
 
 
 
