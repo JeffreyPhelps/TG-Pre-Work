@@ -2162,3 +2162,22 @@ console.log('But this just being short of jaundice all the time confused them.')
 // Codecademy - Learn Javascript, Requests II, Exercise 14, async POST Requests I
 // N/A
 
+
+// Codecademy - Learn Javascript, Requests II, Exercise 15, async POST Requests II
+const getData = async () => {
+    try {
+      const response = await fetch('https://api-to-call.com/endpoint', {
+        method: 'POST',
+        body: JSON.stringify({id: 200})
+      })
+      if(response.ok){
+        const jsonResponse = await response.json();
+        return jsonResponse;
+      }
+      throw new Error('Request failed!');
+    } catch(error) {
+      console.log(error);
+    }
+  }
+
+
