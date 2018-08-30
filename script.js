@@ -2107,18 +2107,56 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Requests II, Exercise 12, async GET Requests II
-const getData = async () => {
-    try {
-      const response = await fetch('https://api-to-call.com/endpoint');
-      if (response.ok) {
-        const jsonResponse = await response.json();
-        return jsonResponse;
-      }
-      throw new Error('Request failed!');
-    } catch (error) {
-      console.log(error);	
+// const getData = async () => {
+//     try {
+//       const response = await fetch('https://api-to-call.com/endpoint');
+//       if (response.ok) {
+//         const jsonResponse = await response.json();
+//         return jsonResponse;
+//       }
+//       throw new Error('Request failed!');
+//     } catch (error) {
+//       console.log(error);	
+//     }
+//   }
+
+
+// Codecademy - Learn Javascript, Requests II, Exercise 13, async GET Requests III
+// Information to reach API
+const url = 'https://api.datamuse.com/words?';
+const queryParams = 'rel_jja=';
+
+// Selecting page elements
+const inputField = document.querySelector('#input');
+const submit = document.querySelector('#submit');
+const responseField = document.querySelector('#responseField');
+
+// AJAX function
+// Code goes here
+const getSuggestions = async () => {
+  const wordQuery = inputField.value;
+  const endpoint = `${url}${queryParams}${wordQuery}`;
+  try {
+    const response = await fetch(endpoint);
+    if(response.ok){
+      const jsonResponse = await response.json();
+      renderResponse(jsonResponse);
     }
+  } catch (error) {
+    console.log(error);
   }
+}
+
+// Clear previous results and display results to webpage
+const displaySuggestions = (event) => {
+  event.preventDefault();
+  while(responseField.firstChild){
+    responseField.removeChild(responseField.firstChild);
+  }
+  getSuggestions();
+}
+
+submit.addEventListener('click', displaySuggestions);
 
 
 
