@@ -1101,6 +1101,27 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Classes, Exercise 7, Inheritance II
+// class HospitalEmployee {
+//     constructor(name) {
+//     this._name = name;
+//     this._remainingVacationDays = 20;
+//     }
+    
+//     get name() {
+//     return this._name;
+//     }
+
+//     get remainingVacationDays() {
+//     return this._remainingVacationDays;
+//     }
+    
+//     takeVacationDays(daysOff) {
+//     this._remainingVacationDays -= daysOff;
+//     }
+// }
+
+
+// Codecademy - Learn Javascript, Classes, Exercise 8, Inheritance III
 class HospitalEmployee {
     constructor(name) {
     this._name = name;
@@ -1110,7 +1131,7 @@ class HospitalEmployee {
     get name() {
     return this._name;
     }
-
+    
     get remainingVacationDays() {
     return this._remainingVacationDays;
     }
@@ -1119,6 +1140,16 @@ class HospitalEmployee {
     this._remainingVacationDays -= daysOff;
     }
 }
+
+class Nurse extends HospitalEmployee {
+    constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+    }
+}
+
+const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']);
+
 
 
 
