@@ -1277,4 +1277,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 
+// Learn JavaScript - Part 11
+
+
+// Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 1, Intro
+// N/A
+
+
+
 
