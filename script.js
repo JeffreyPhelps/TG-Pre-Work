@@ -1399,15 +1399,42 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 6, import
-import Airplane from './airplane';
+// import Airplane from './airplane';
 
-function displayFuelCapacity() {
-  Airplane.availableAirplanes.forEach(function(element){
-  console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
-  });
-}
+// function displayFuelCapacity() {
+//   Airplane.availableAirplanes.forEach(function(element){
+//   console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+//   });
+// }
 
-displayFuelCapacity();
+// displayFuelCapacity();
+
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 7, Named Exports
+let availableAirplanes = [{
+    name: 'AeroJet',
+    fuelCapacity: 800,
+    availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
+}, 
+{name: 'SkyJet',
+    fuelCapacity: 500,
+    availableStaff: ['pilots', 'flightAttendants']
+}];
+
+let flightRequirements = {
+    requiredStaff: 4,
+};
+
+function meetsStaffRequirements(availableStaff, requiredStaff) {
+    if (availableStaff.length >= requiredStaff) {
+    return true;
+    } else {
+    return false;
+    }
+};
+
+export { availableAirplanes, flightRequirements, meetsStaffRequirements};
+
 
 
 
