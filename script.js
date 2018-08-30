@@ -1638,34 +1638,37 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 14, Combining Import Statements
-import { availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+// import { availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
 
-import meetsSpeedRangeRequirements from './airplane';
+// import meetsSpeedRangeRequirements from './airplane';
 
-function displayFuelCapacity() {
-  availableAirplanes.forEach(function(element) {
-    console.log('Fuel Capacity of ' + element.name + ': ' + element['fuelCapacity']);
-  });
-}
+// function displayFuelCapacity() {
+//   availableAirplanes.forEach(function(element) {
+//     console.log('Fuel Capacity of ' + element.name + ': ' + element['fuelCapacity']);
+//   });
+// }
 
-displayFuelCapacity();
+// displayFuelCapacity();
 
-function displayStaffStatus() {
-  availableAirplanes.forEach(function(element) {
-   console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
-  });
-}
+// function displayStaffStatus() {
+//   availableAirplanes.forEach(function(element) {
+//    console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
+//   });
+// }
 
-displayStaffStatus();
+// displayStaffStatus();
 
-function displaySpeedRangeStatus() {
-  availableAirplanes.forEach(function(element) {
-   console.log(element.name + ' meets speed range requirements:' + meetsSpeedRangeRequirements(element.maxSpeed, element.minSpeed, flightRequirements.requiredSpeedRange));
-  });
-}
+// function displaySpeedRangeStatus() {
+//   availableAirplanes.forEach(function(element) {
+//    console.log(element.name + ' meets speed range requirements:' + meetsSpeedRangeRequirements(element.maxSpeed, element.minSpeed, flightRequirements.requiredSpeedRange));
+//   });
+// }
 
-displaySpeedRangeStatus();
+// displaySpeedRangeStatus();
 
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 15, Review
+// N/A
 
 
 
