@@ -1318,3 +1318,10 @@ console.log('But this just being short of jaundice all the time confused them.')
 // Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 8, .babelrc
 // N/A
 
+
+// Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 9, Babel Source Lib
+// N/A
+
+
+
+
