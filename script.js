@@ -1014,13 +1014,24 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Classes, Exercise 2, Constructor
+// class Surgeon {
+//     constructor(name, department) {
+//     this._name = name;
+//     this._department = department;
+//     }
+// }
+
+
+// Codecademy - Learn Javascript, Classes, Exercise 3, Instance
 class Surgeon {
     constructor(name, department) {
-    this._name = name;
-    this._department = department;
+    this.name = name;
+    this.department = department;
     }
 }
 
+const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
+const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
 
 
 
