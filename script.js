@@ -1496,31 +1496,77 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 10, Import Named Imports
-import {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
+// import {availableAirplanes, flightRequirements, meetsStaffRequirements, meetsSpeedRangeRequirements} from './airplane';
 
-function displayFuelCapacity() {
-  availableAirplanes.forEach(function(element) {
-    console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
-  });
-}
+// function displayFuelCapacity() {
+//   availableAirplanes.forEach(function(element) {
+//     console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+//   });
+// }
 
-displayFuelCapacity();
+// displayFuelCapacity();
 
-function displayStaffStatus() {
-  availableAirplanes.forEach(function(element) {
-   console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
-  });
-}
+// function displayStaffStatus() {
+//   availableAirplanes.forEach(function(element) {
+//    console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
+//   });
+// }
 
-displayStaffStatus();
+// displayStaffStatus();
 
-function displaySpeedRangeStatus() {
-  availableAirplanes.forEach(function(element) {
-   console.log(element.name + ' meets speed range requirements:' + meetsSpeedRangeRequirements(element.maxSpeed, element.minSpeed, flightRequirements.requiredSpeedRange));
-  });
-}
+// function displaySpeedRangeStatus() {
+//   availableAirplanes.forEach(function(element) {
+//    console.log(element.name + ' meets speed range requirements:' + meetsSpeedRangeRequirements(element.maxSpeed, element.minSpeed, flightRequirements.requiredSpeedRange));
+//   });
+// }
 
-displaySpeedRangeStatus();
+// displaySpeedRangeStatus();
+
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 11, Export as
+let availableAirplanes = [
+    {name: 'AeroJet',
+     fuelCapacity: 800,
+     availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
+     maxSpeed: 1200,
+     minSpeed: 300
+    }, 
+    {name: 'SkyJet',
+     fuelCapacity: 500,
+     availableStaff: ['pilots', 'flightAttendants'],
+     maxSpeed: 800,
+     minSpeed: 200
+    }
+    ];
+    
+    let flightRequirements = {
+      requiredStaff: 4,
+      requiredSpeedRange: 700
+    };
+    
+    function meetsStaffRequirements(availableStaff, requiredStaff) {
+      if (availableStaff.length >= requiredStaff) {
+        return true;
+      } else {
+        return false;
+      }
+    };
+    
+    function meetsSpeedRangeRequirements(maxSpeed, minSpeed, requiredSpeedRange) {
+      let range = maxSpeed - minSpeed;
+      if (range > requiredSpeedRange) {
+        return true;
+        } else {
+        return false;
+      }
+    };
+    
+export { availableAirplanes as aircrafts, 
+    flightRequirements as flightReqs, 
+    meetsStaffRequirements as meetsStaffReqs, 
+    meetsSpeedRangeRequirements as meetsSpeedRangeReqs
+};
+
 
 
 
