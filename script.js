@@ -1792,5 +1792,24 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Requests, Exercise 8, XHR POST Requests II
+const xhr = new XMLHttpRequest();
+const url = 'https://api-to-call.com/endpoint';
+const data = JSON.stringify({id: '200'});
+
+xhr.responseType = 'json';
+
+xhr.onreadystatechange = () => {
+  if(xhr.readyState === XMLHttpRequest.DONE){
+    return xhr.response;
+  }
+}
+
+xhr.open('POST', url);
+xhr.send(data);
+
+
+
+
 
 
