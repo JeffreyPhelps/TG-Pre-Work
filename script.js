@@ -1013,6 +1013,15 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Classes, Exercise 2, Constructor
+class Surgeon {
+    constructor(name, department) {
+    this._name = name;
+    this._department = department;
+    }
+}
+
+
 
 
 
