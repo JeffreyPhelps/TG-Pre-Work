@@ -1354,5 +1354,14 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 2, module.exports
+const Airplane = {};
+Airplane.myAirplane = "StarJet";
+
+module.exports = Airplane;
+
+
+
+
 
 
