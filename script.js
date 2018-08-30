@@ -1296,13 +1296,17 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 4, Why ES6?
+// var pasta = "Spaghetti"; // ES5 syntax
+// var meat = "Pancetta"; // ES6 syntax
+// var sauce = "Eggs and cheese"; // ES6 syntax
+// // Template literals, like the one below, were introduced in ES6
+// var carbonara = "You can make carbonara with " + pasta + ", " + meat + ", " + " and a sauce made with " + sauce + ".";
+
+
+// Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 5, Transpilation With Babel
 var pasta = "Spaghetti"; // ES5 syntax
-var meat = "Pancetta"; // ES6 syntax
-var sauce = "Eggs and cheese"; // ES6 syntax
+const meat = "Pancetta"; // ES6 syntax
+let sauce = "Eggs and cheese"; // ES6 syntax
 // Template literals, like the one below, were introduced in ES6
-var carbonara = "You can make carbonara with " + pasta + ", " + meat + ", " + " and a sauce made with " + sauce + ".";
-
-
-
-
+const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
 
