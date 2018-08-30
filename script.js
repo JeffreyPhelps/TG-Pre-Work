@@ -1383,20 +1383,31 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 5, export default
-let Airplane = {};
+// let Airplane = {};
 
-Airplane.availableAirplanes = [
-{
-  name: 'AeroJet',
-  fuelCapacity: 800
- }, 
- {name: 'SkyJet',
-  fuelCapacity: 500
- }
-];
+// Airplane.availableAirplanes = [
+// {
+//   name: 'AeroJet',
+//   fuelCapacity: 800
+//  }, 
+//  {name: 'SkyJet',
+//   fuelCapacity: 500
+//  }
+// ];
 
-export default Airplane;
+// export default Airplane;
 
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 6, import
+import Airplane from './airplane';
+
+function displayFuelCapacity() {
+  Airplane.availableAirplanes.forEach(function(element){
+  console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+  });
+}
+
+displayFuelCapacity();
 
 
 
