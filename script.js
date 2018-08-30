@@ -1355,13 +1355,19 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 2, module.exports
-const Airplane = {};
-Airplane.myAirplane = "StarJet";
+// const Airplane = {};
+// Airplane.myAirplane = "StarJet";
 
-module.exports = Airplane;
-
-
+// module.exports = Airplane;
 
 
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 3, require()
+const Airplane = require('./1-airplane.js');
+
+function displayAirplane() {
+  console.log(Airplane.myAirplane);
+}
+
+displayAirplane();
 
 
