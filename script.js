@@ -1679,6 +1679,15 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Requests, Exercise 2, HTTP Requests
+console.log('First message!');
+setTimeout(() => {
+   console.log('This message will always run last...');
+}, 2500);
+console.log('Second message!');
+
+
+
 
 
 
