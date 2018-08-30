@@ -1320,7 +1320,27 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 9, Babel Source Lib
+// {
+//     "name": "learning-babel",
+//     "version": "1.0.0",
+//     "description": "Use Babel to transpile JavaScript ES6 to ES5",
+//     "main": "index.js",
+//     "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1",
+//     "build": "babel src -d lib"
+//     },
+//     "author": "",
+//     "license": "ISC",
+//     "devDependencies": {
+//     "babel-cli": "^6.26.0",
+//     "babel-preset-env": "^1.7.0"
+//     }
+// }
+
+
+// Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 10, Build
 // N/A
+
 
 
 
