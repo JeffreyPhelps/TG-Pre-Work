@@ -699,13 +699,34 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Objects, Exercise 4, Accessing Object Properties II
+// let person = {
+//     name: 'Tyron',
+//     age: 40
+// };
+// console.log(person['name']);
+// console.log(person['age']);
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 5, Accessing Object Properties III
 let person = {
     name: 'Tyron',
-    age: 40
+    age: 40,
+    weekendAlarm: 'No alarms needed',
+    weekAlarm: 'Alarm set to 7AM'
 };
+
+let day = 'Wednesday';
+let alarm;
+
+if (day == 'Saturday' || day == 'Sunday') {
+        alarm = 'weekendAlarm';
+    } else {
+        alarm = 'weekAlarm';
+    };
+
 console.log(person['name']);
 console.log(person['age']);
-
+console.log(person[alarm]);
 
 
 
