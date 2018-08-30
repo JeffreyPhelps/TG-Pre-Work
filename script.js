@@ -683,11 +683,20 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Objects, Exercise 2, Objects
+// let person = {
+//     name: 'Jeff',
+//     age: 'Old Enough'
+// };
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 3, Accessing Object Properties I
 let person = {
     name: 'Jeff',
-    age: 'Old Enough'
+    age: '48'
   };
+  console.log(person.name);
+  console.log(person.age);
+
 
 
   
-
