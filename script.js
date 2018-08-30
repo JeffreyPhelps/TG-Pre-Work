@@ -1288,6 +1288,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Browser Compatibility and Transpilation, Exercise 3, caniuse.com II
+// Set the variable below to a number
+let esFivePercentageSupport = 97;
+// Set the variable below to a number
+let esSixTemplateLiterals = 78;
+
 
 
 
