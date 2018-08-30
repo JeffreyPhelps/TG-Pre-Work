@@ -682,6 +682,12 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Objects, Exercise 2, Objects
+let person = {
+    name: 'Jeff',
+    age: 'Old Enough'
+  };
 
 
+  
 
