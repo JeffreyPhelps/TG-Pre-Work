@@ -1959,5 +1959,22 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Requests II, Exercise 7, fetch() POST Requests II
+fetch('https://api-to-call.com/endpoint', {
+  method: 'POST',
+  body: JSON.stringify({id: "200"})
+}).then(response => {
+  if(response.ok){
+	  return response.json();  
+  }
+	throw new Error('Request failed!');
+}, networkError => {
+  console.log(networkError.message);
+}).then(jsonResponse => {
+  console.log(jsonResponse);
+})
+
+
+
 
 
