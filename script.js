@@ -1362,12 +1362,25 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 3, require()
-const Airplane = require('./1-airplane.js');
+// const Airplane = require('./1-airplane.js');
 
-function displayAirplane() {
-  console.log(Airplane.myAirplane);
-}
+// function displayAirplane() {
+//   console.log(Airplane.myAirplane);
+// }
 
-displayAirplane();
+// displayAirplane();
+
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 4, module.exports II
+const Airplane = {};
+
+module.exports = {
+  myAirplane: "CloudJet",
+  displayAirplane: function() {
+    return this.myAirplane;
+  }
+};
+
+
 
 
