@@ -935,21 +935,42 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Objects, Exercise 12, Getters and Setters I
+// let person = {
+//     _name: 'Lu Xun',
+//     _age: 137,
+    
+//     set age(ageIn) {
+//     if (typeof ageIn === 'number') {
+//         this._age = ageIn;
+//     }
+//     else {
+//         console.log('Invalid input');
+//         return 'Invalid input';
+//     }
+//     }
+
+// };
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 12, Getters and Setters II
 let person = {
     _name: 'Lu Xun',
     _age: 137,
     
     set age(ageIn) {
-    if (typeof ageIn === 'number') {
+      if (typeof ageIn === 'number') {
         this._age = ageIn;
-    }
-    else {
+      }
+      else {
         console.log('Invalid input');
         return 'Invalid input';
+      }
     }
-    }
+  
+  };
 
-};
+  person.age = 'Thirty-nine';
+  person.age = 39;
 
 
 
