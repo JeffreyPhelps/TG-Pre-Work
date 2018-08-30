@@ -708,11 +708,34 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Objects, Exercise 5, Accessing Object Properties III
+// let person = {
+//     name: 'Tyron',
+//     age: 40,
+//     weekendAlarm: 'No alarms needed',
+//     weekAlarm: 'Alarm set to 7AM'
+// };
+
+// let day = 'Wednesday';
+// let alarm;
+
+// if (day == 'Saturday' || day == 'Sunday') {
+//         alarm = 'weekendAlarm';
+//     } else {
+//         alarm = 'weekAlarm';
+//     };
+
+// console.log(person['name']);
+// console.log(person['age']);
+// console.log(person[alarm]);
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 6, Adding a Property
 let person = {
     name: 'Tyron',
     age: 40,
     weekendAlarm: 'No alarms needed',
-    weekAlarm: 'Alarm set to 7AM'
+    weekAlarm: 'Alarm set to 7AM',
+    hobbies: ['coding', 'guitar', 'gardening']
 };
 
 let day = 'Wednesday';
@@ -727,6 +750,8 @@ if (day == 'Saturday' || day == 'Sunday') {
 console.log(person['name']);
 console.log(person['age']);
 console.log(person[alarm]);
+console.log(person.hobbies);
+
 
 
 
