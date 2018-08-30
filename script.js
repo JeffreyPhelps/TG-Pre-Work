@@ -1917,42 +1917,46 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Requests II, Exercise 5, fetch() GET Requests IV
-// Information to reach API
-const url = 'https://api.datamuse.com/words';
-const queryParams = '?sl=';
+// // Information to reach API
+// const url = 'https://api.datamuse.com/words';
+// const queryParams = '?sl=';
 
-// Selects page elements
-const inputField = document.querySelector('#input');
-const submit = document.querySelector('#submit');
-const responseField = document.querySelector('#responseField');
+// // Selects page elements
+// const inputField = document.querySelector('#input');
+// const submit = document.querySelector('#submit');
+// const responseField = document.querySelector('#responseField');
 
-// AJAX function
-const getSuggestions = () => {
-  const wordQuery = inputField.value;
-  const endpoint = `${url}${queryParams}${wordQuery}`;
+// // AJAX function
+// const getSuggestions = () => {
+//   const wordQuery = inputField.value;
+//   const endpoint = `${url}${queryParams}${wordQuery}`;
   
-  fetch(endpoint).then(response => {
-    if (response.ok) {
-      return response.json();
-    }
-    throw new Error('Request failed!');
-  }, networkError => {
-    console.log(networkError.message)
-  }).then(jsonResponse => {
-    renderResponse(jsonResponse);
-  })
-}
+//   fetch(endpoint).then(response => {
+//     if (response.ok) {
+//       return response.json();
+//     }
+//     throw new Error('Request failed!');
+//   }, networkError => {
+//     console.log(networkError.message)
+//   }).then(jsonResponse => {
+//     renderResponse(jsonResponse);
+//   })
+// }
 
-// Clears previous results and display results to webpage
-const displaySuggestions = (event) => {
-  event.preventDefault();
-  while(responseField.firstChild){
-    responseField.removeChild(responseField.firstChild);
-  }
-  getSuggestions();
-};
+// // Clears previous results and display results to webpage
+// const displaySuggestions = (event) => {
+//   event.preventDefault();
+//   while(responseField.firstChild){
+//     responseField.removeChild(responseField.firstChild);
+//   }
+//   getSuggestions();
+// };
 
-submit.addEventListener('click', displaySuggestions);
+// submit.addEventListener('click', displaySuggestions);
+
+
+// Codecademy - Learn Javascript, Requests II, Exercise 6, fetch() POST Requests I
+// N/A
 
 
 
