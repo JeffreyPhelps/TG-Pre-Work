@@ -1866,5 +1866,20 @@ console.log('But this just being short of jaundice all the time confused them.')
 // N/A
 
 
+// Codecademy - Learn Javascript, Requests II, Exercise 3, fetch() GET Requests II
+fetch('https://api-to-call.com/endpoint').then(response => {
+  if (response.ok) {
+    return response.json();
+  }
+  throw new Error('Request failed!');
+}, networkError => {
+  console.log(networkError.message);
+}).then(jsonResponse => {
+  return jsonResponse;
+});
+
+
+
+
 
 
