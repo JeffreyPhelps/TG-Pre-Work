@@ -852,6 +852,44 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Objects, Exercise 10, The this Keyword I
+// let person = {
+//     name: 'Tyron',
+//     age: 40,
+//     weekendAlarm: 'No alarms needed',
+//     weekAlarm: 'Alarm set to 7AM',
+    
+//     sayHello: function() {
+//       return `Hello, my name is ${this.name}`;
+//     },
+    
+//     sayGoodbye() {
+//       return 'Goodbye!';
+//     }
+    
+//   };
+  
+//   console.log(person.sayHello());
+  
+//   person.hobbies = ['Basketball', 'Coaching'];
+//   person.hobbies = ['Basketball'];
+//   console.log(person.hobbies);
+  
+//   console.log(person['name']);
+//   console.log(person['age']);
+  
+//   let day = 'Tuesday';
+//   let alarm;
+  
+//   if (day === 'Saturday' || day === 'Sunday' ) {
+//     alarm = 'weekendAlarm';
+//   } else {
+//     alarm = 'weekAlarm';
+//   }
+  
+//   console.log(person[alarm]);
+
+
+// Codecademy - Learn Javascript, Objects, Exercise 11, The this Keyword II
 let person = {
     name: 'Tyron',
     age: 40,
@@ -859,36 +897,41 @@ let person = {
     weekAlarm: 'Alarm set to 7AM',
     
     sayHello: function() {
-      return `Hello, my name is ${this.name}`;
+    return `Hello, my name is ${this.name}`;
     },
     
     sayGoodbye() {
-      return 'Goodbye!';
+    return 'Goodbye!';
     }
-    
-  };
-  
-  console.log(person.sayHello());
-  
-  person.hobbies = ['Basketball', 'Coaching'];
-  person.hobbies = ['Basketball'];
-  console.log(person.hobbies);
-  
-  
-  console.log(person['name']);
-  console.log(person['age']);
-  
-  let day = 'Tuesday';
-  let alarm;
-  
-  if (day === 'Saturday' || day === 'Sunday' ) {
-    alarm = 'weekendAlarm';
-  } else {
-    alarm = 'weekAlarm';
-  }
-  
-  console.log(person[alarm]);
+};
 
+let friend = {
+    name: 'Lebron'
+};
+
+friend.sayHello = person.sayHello;
+
+console.log(friend.sayHello());
+console.log(person.sayHello());
+
+person.hobbies = ['Basketball', 'Coaching'];
+person.hobbies = ['Basketball'];
+console.log(person.hobbies);
+
+
+console.log(person['name']);
+console.log(person['age']);
+
+let day = 'Tuesday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+    alarm = 'weekendAlarm';
+} else {
+    alarm = 'weekAlarm';
+}
+
+console.log(person[alarm]);
 
 
 
