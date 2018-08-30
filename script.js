@@ -1411,29 +1411,49 @@ console.log('But this just being short of jaundice all the time confused them.')
 
 
 // Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 7, Named Exports
-let availableAirplanes = [{
-    name: 'AeroJet',
-    fuelCapacity: 800,
-    availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
-}, 
-{name: 'SkyJet',
-    fuelCapacity: 500,
-    availableStaff: ['pilots', 'flightAttendants']
-}];
+// let availableAirplanes = [{
+//     name: 'AeroJet',
+//     fuelCapacity: 800,
+//     availableStaff: ['pilots', 'flightAttendants', 'engineers', 'medicalAssistance', 'sensorOperators'],
+// }, 
+// {name: 'SkyJet',
+//     fuelCapacity: 500,
+//     availableStaff: ['pilots', 'flightAttendants']
+// }];
 
-let flightRequirements = {
-    requiredStaff: 4,
-};
+// let flightRequirements = {
+//     requiredStaff: 4,
+// };
 
-function meetsStaffRequirements(availableStaff, requiredStaff) {
-    if (availableStaff.length >= requiredStaff) {
-    return true;
-    } else {
-    return false;
-    }
-};
+// function meetsStaffRequirements(availableStaff, requiredStaff) {
+//     if (availableStaff.length >= requiredStaff) {
+//     return true;
+//     } else {
+//     return false;
+//     }
+// };
 
-export { availableAirplanes, flightRequirements, meetsStaffRequirements};
+// export { availableAirplanes, flightRequirements, meetsStaffRequirements};
+
+
+// Codecademy - Learn Javascript, Intermediate JavaScript Modules, Exercise 8, Named Imports
+import {availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+
+function displayFuelCapacity() {
+  availableAirplanes.forEach(function(element) {
+    console.log('Fuel Capacity of ' + element.name + ': ' + element.fuelCapacity);
+  });
+}
+
+displayFuelCapacity();
+
+function displayStaffStatus() {
+  availableAirplanes.forEach(function(element) {
+   console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
+  });
+}
+
+displayStaffStatus();
 
 
 
